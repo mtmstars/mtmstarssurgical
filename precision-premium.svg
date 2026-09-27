@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070b"/><stop offset=".55" stop-color="#0b0d12"/><stop offset="1" stop-color="#17120a"/></linearGradient>
+  <radialGradient id="glow"><stop stop-color="#d6a84a" stop-opacity=".28"/><stop offset="1" stop-color="#d6a84a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="steel" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d7279"/><stop offset=".25" stop-color="#f7f8fa"/><stop offset=".5" stop-color="#8b9097"/><stop offset=".72" stop-color="#fff"/><stop offset="1" stop-color="#5b6067"/></linearGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8f661d"/><stop offset=".35" stop-color="#f4d37a"/><stop offset=".6" stop-color="#fff0b2"/><stop offset="1" stop-color="#9b6e1f"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="13"/></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="2"/></filter>
+</defs>
+<rect width="1600" height="700" fill="url(#bg)"/>
+<ellipse cx="1200" cy="320" rx="430" ry="350" fill="url(#glow)"/>
+<!-- subtle premium panels -->
+<path d="M1040 0L1600 0 1600 700 930 700Z" fill="#000" opacity=".18"/>
+<g opacity=".18" stroke="#e0b65a" stroke-width="2"><path d="M930 700L1460 0"/><path d="M1100 700L1600 100"/><path d="M1280 700L1600 330"/></g>
+<!-- shadow shapes -->
+<g fill="#000" opacity=".55" filter="url(#shadow)"><ellipse cx="1260" cy="480" rx="360" ry="55"/><ellipse cx="1130" cy="270" rx="300" ry="38"/><ellipse cx="1450" cy="610" rx="260" ry="35"/></g>
+<!-- large operating scissors -->
+<g transform="translate(1040 130) rotate(-16)">
+ <circle cx="70" cy="70" r="42" fill="none" stroke="url(#gold)" stroke-width="13"/>
+ <circle cx="165" cy="70" r="42" fill="none" stroke="url(#gold)" stroke-width="13"/>
+ <path d="M100 100L470 260" stroke="#25282d" stroke-width="22"/>
+ <path d="M135 98L505 238" stroke="url(#steel)" stroke-width="13"/>
+ <path d="M120 112L485 274" stroke="#dfe2e6" stroke-width="3" opacity=".8"/>
+ <path d="M135 98L505 238" stroke="#fff" stroke-width="2" opacity=".6"/>
+</g>
+<!-- long forceps / needle holder -->
+<g transform="translate(930 370) rotate(8)">
+ <circle cx="62" cy="42" r="39" fill="none" stroke="url(#gold)" stroke-width="12"/>
+ <circle cx="145" cy="42" r="39" fill="none" stroke="url(#gold)" stroke-width="12"/>
+ <path d="M90 65L575 10" stroke="url(#steel)" stroke-width="16"/>
+ <path d="M117 77L602 22" stroke="#e8ebee" stroke-width="5" opacity=".9"/>
+ <path d="M560 10L665 0L602 22" fill="url(#steel)"/>
+ <path d="M560 10L665 0" stroke="#fff" stroke-width="3" opacity=".7"/>
+</g>
+<!-- scalpel -->
+<g transform="translate(1180 500) rotate(-25)">
+ <rect x="0" y="0" width="250" height="30" rx="9" fill="url(#steel)"/>
+ <path d="M250 0L390 15L250 30Z" fill="url(#steel)"/>
+ <path d="M50 4L205 4" stroke="#fff" stroke-width="2" opacity=".7"/>
+ <path d="M45 25L205 25" stroke="#4d5258" stroke-width="2"/>
+</g>
+<!-- foreground clamp -->
+<g transform="translate(1210 210) rotate(32)">
+ <circle cx="50" cy="50" r="32" fill="none" stroke="url(#gold)" stroke-width="11"/>
+ <circle cx="120" cy="50" r="32" fill="none" stroke="url(#gold)" stroke-width="11"/>
+ <path d="M75 72L330 185" stroke="url(#steel)" stroke-width="15"/>
+ <path d="M95 60L350 173" stroke="#f9fafb" stroke-width="3" opacity=".75"/>
+ <path d="M330 185L430 218L350 173Z" fill="url(#steel)"/>
+</g>
+<!-- fine instrument silhouettes in distance -->
+<g opacity=".35" stroke="url(#steel)" stroke-linecap="round">
+ <path d="M1050 90L1460 250" stroke-width="7"/><path d="M1015 110L1425 270" stroke-width="2"/>
+ <path d="M980 600L1370 520" stroke-width="6"/><path d="M970 618L1360 538" stroke-width="2"/>
+</g>
+<!-- dark text-safe gradient -->
+<rect width="1600" height="700" fill="url(#bg)" opacity=".72"/>
+<rect x="0" y="0" width="1000" height="700" fill="#05070b" opacity=".78"/>
+<rect x="760" y="0" width="700" height="700" fill="url(#glow)" opacity=".22"/>
+</svg>

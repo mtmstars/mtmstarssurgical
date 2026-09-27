@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8dc90"/><stop offset=".5" stop-color="#c99532"/><stop offset="1" stop-color="#fff0b5"/></linearGradient></defs>
+<g fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity=".72">
+<!-- scalpel --> <path d="M120 500 L430 190"/><path d="M390 150 L475 235"/><path d="M410 130 L495 215"/><path d="M430 190 L510 110"/><path d="M475 235 L555 155"/><path d="M100 520 L155 465"/>
+<!-- forceps --> <path d="M670 105 C625 190 625 265 690 345 C735 400 735 470 685 545"/><path d="M755 105 C800 190 800 265 735 345 C690 400 690 470 740 545"/><path d="M670 105 L650 70 L705 100"/><path d="M755 105 L775 70 L720 100"/><path d="M685 545 L650 585 L710 555"/><path d="M740 545 L775 585 L715 555"/>
+<!-- scissors --> <circle cx="300" cy="115" r="48"/><circle cx="415" cy="115" r="48"/><path d="M335 145 L560 370"/><path d="M380 145 L560 315"/><path d="M560 315 L610 365"/><path d="M560 370 L610 420"/>
+<!-- syringe --> <path d="M910 120 L1040 250"/><rect x="850" y="190" width="210" height="120" rx="18" transform="rotate(45 955 250)"/><path d="M825 165 L880 110"/><path d="M815 235 L770 280"/><path d="M1035 340 L1120 425"/><path d="M1110 415 L1160 465"/><path d="M895 205 L1030 340"/><path d="M930 170 L1070 310"/>
+<!-- clamps --> <path d="M170 570 C230 510 300 510 360 570"/><path d="M170 570 C210 600 320 600 360 570"/><circle cx="265" cy="565" r="12"/>
+</g>
+</svg>
